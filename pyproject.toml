@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "phys-anon"
+version = "0.1.0"
+description = ""
+authors = ["Mikail Khan <mikail@mikail-khan.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+PyMuPDF = "^1.24.2"
+pytesseract = "^0.3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
